@@ -1,0 +1,139 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Receitas Saudáveis Premium</title>
+<style>
+    /* Reset básico */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f9f9f9; color:#333; line-height:1.6; }
+    
+    header {
+        background: linear-gradient(to right, #4CAF50, #81C784);
+        color: white;
+        text-align:center;
+        padding:60px 20px;
+    }
+    header h1 { font-size:3rem; margin-bottom:10px; }
+    header p { font-size:1.2rem; }
+
+    section {
+        max-width:1000px;
+        margin: 40px auto;
+        background:white;
+        padding:40px;
+        border-radius:15px;
+        box-shadow:0 10px 25px rgba(0,0,0,0.1);
+        animation: fadeIn 1s ease-in;
+    }
+
+    h2 { color:#4CAF50; margin-bottom:20px; font-size:2rem; }
+    ul { margin-left:20px; margin-bottom:20px; }
+    li { margin-bottom:10px; }
+    p { margin-bottom:15px; }
+
+    .btn {
+        display:block;
+        width:80%;
+        max-width:300px;
+        margin:20px auto;
+        padding:15px;
+        background:#4CAF50;
+        color:white;
+        text-align:center;
+        font-size:1.2rem;
+        font-weight:bold;
+        border-radius:10px;
+        text-decoration:none;
+        transition: background 0.3s;
+    }
+    .btn:hover { background:#388E3C; }
+
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+
+    .card {
+        background:#f0f0f0;
+        padding:20px;
+        border-radius:10px;
+        text-align:center;
+        transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+
+    footer {
+        text-align:center;
+        padding:30px;
+        color:#777;
+        font-size:0.9rem;
+    }
+
+    /* Animação simples */
+    @keyframes fadeIn { from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Receitas Saudáveis Para o Dia a Dia</h1>
+    <p>50 receitas leves, rápidas e baratas para transformar sua alimentação</p>
+</header>
+
+<section>
+    <h2>Transforme sua alimentação sem esforço</h2>
+    <p>Se você quer reduzir inchaço, ter mais energia e se sentir bem com a comida, este guia é para você. Receitas simples, práticas e deliciosas que qualquer pessoa consegue fazer!</p>
+</section>
+
+<section>
+    <h2>O que você recebe:</h2>
+    <div class="grid">
+        <div class="card"><strong>50 Receitas</strong><p>Cafés da manhã, lanches, almoços, jantares e sobremesas.</p></div>
+        <div class="card"><strong>Lista de compras</strong><p>Com tudo que você precisa, de forma simples e econômica.</p></div>
+        <div class="card"><strong>Cardápio semanal</strong><p>Planeje sua semana sem perder tempo.</p></div>
+        <div class="card"><strong>Receitas anti-inchaço</strong><p>Leves e deliciosas para o dia a dia.</p></div>
+        <div class="card"><strong>Sobremesas saudáveis</strong><p>Para comer doce sem culpa.</p></div>
+    </div>
+</section>
+
+<section>
+    <h2>Bônus Exclusivos</h2>
+    <div class="grid">
+        <div class="card"><strong>7 Bebidas Anti-Inchaço</strong><p>Receitas fáceis para desinchar.</p></div>
+        <div class="card"><strong>Checklist Semanal</strong><p>Organize hábitos e alimentação.</p></div>
+        <div class="card"><strong>10 Receitas Rápidas</strong><p>Perfeitas para quem trabalha o dia todo.</p></div>
+    </div>
+</section>
+
+<section>
+    <h2>Preço Especial de Lançamento</h2>
+    <p><strong>De: R$ 49,90</strong></p>
+    <p><strong>Por apenas: <span style="color:#4CAF50; font-size:1.5rem;">R$ 19,90</span></strong></p>
+
+    <!-- TROQUE O LINK ABAIXO PELO LINK DE CHECKOUT DA KIWIFY -->
+    <a class="btn" href="#" target="_blank">COMPRAR AGORA</a>
+    <p style="text-align:center;">Acesso imediato via e-mail após o pagamento.</p>
+</section>
+
+<section>
+    <h2>Depoimentos</h2>
+    <div class="grid">
+        <div class="card">“As receitas são simples e realmente funcionam!” — Ana M.</div>
+        <div class="card">“O cardápio semanal salvou meu dia a dia!” — Júlia F.</div>
+        <div class="card">“Comprei e adorei. Prático demais!” — Rafaela L.</div>
+    </div>
+</section>
+
+<section>
+    <h2>Perguntas Frequentes</h2>
+    <p><strong>Como recebo o guia?</strong><br>Por e-mail imediatamente após a compra.</p>
+    <p><strong>Preciso saber cozinhar?</strong><br>Não! Todas as receitas são fáceis e rápidas.</p>
+    <p><strong>Os ingredientes são caros?</strong><br>Não. São todos acessíveis.</p>
+</section>
+
+<footer>
+    © 2025 Receitas Saudáveis — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
